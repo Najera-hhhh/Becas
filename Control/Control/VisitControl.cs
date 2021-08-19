@@ -70,6 +70,7 @@ namespace Control {
             
             IEnumerable<Evaluator> evaluator = eval.GetAll().ToList();
             IEnumerable<Visit>  Visits = GetAll();
+            
 
             if(!evaluator.Any())
                 return 0;
